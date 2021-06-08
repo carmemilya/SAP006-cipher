@@ -4,11 +4,44 @@
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
   <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <div id="root">
-    <h1>Hello world!</h1>
-  </div>
-  <script src="index.js" type="module"></script>
-</body>
+  <script src="index.js" type="module"></script>  
+  
+
+  </head>
+
+  <body>
+    <div> 
+    <h1>Codifique sua descoberta</h1>
+    </div>
+
+    <div id = "root">Nome usuario</div>
+ 
+ 
+
+    <p id="numDeslocamento">Insira o numero de deslocamento do seu código</p1>
+    <br><input id="offsetNumber" name="offsetNumber" value="" type="number"></br>
+   
+
+    <p><textarea 
+    id="text" name="text" 
+    rows="5" cols="40">
+    </textarea></p>
+
+    <button onclick="codificar()" id="criptar">Codificar</button>
+    <button onclick="descodificar()" id="descriptar">Descodificar</button>
+
+    <aside>
+      <p>
+        É um tipo de <strong class="note">cifra de substituição</strong> no qual cada letra do texto
+        é substituída por outra, que se apresenta no alfabeto abaixo dela um número fixo de vezes. 
+        Por exemplo, com uma troca de três posições, A seria substituído por D, B se tornaria E,
+        e assim por diante.
+      </p>
+    </aside>
+    
+    <p title="salve essa mensagem em seus arquivos" id="print"><button onclick="window.print()">Print essa página</button></p>
+    
+     
+  </body>
 </html>
+
