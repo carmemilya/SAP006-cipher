@@ -1,18 +1,16 @@
-# Cifra de César- 1º Projeto Front-End JS. Bootcamp Laboratória, turma-SAP006-SP
+# Cifra de César- 1º Projeto turma-SAP006-SP
 
 ## Índice
 
-* [1. Resumo do projeto](#1-resumo-do-projeto)
+* [1. Resumo do projeto npm- Cifra Científica](#1-resumo-do-projeto)
 * [2. Público alvo](#2-público-alvo)
 * [3. Funcionalidade](#3-funcionalidade)
-* [4. Considerações gerais](#4-considerações-gerais)
-* [5. Critérios de aceitação mínimos do
-  projeto](#5-critérios-de-aceitação-mínimos-do-projeto)
-* [6. Hacker edition](#6-hacker-edition)
+* [4. Considerações finais](#4-considerações-finais)
+
 
 ***
 
-## 1. Resumo do projeto
+## 1. Resumo do projeto - Crifra Científica
 
 O objetivo deste projeto é criar minha primeira aplicação web do bootcamp,
 onde buscamos interagir com usuario atráves do navegador utilizando HTML, 
@@ -41,16 +39,16 @@ ou até mesmo anos de trabalho não sejam "roubados" por terceiros.
 A funcionalidade desta aplicaçao é de fácil entendimento. Veja alguns passos
 para sua utilização:
 
-*1-Escolha o número de casas do alfabeto que você deseja deslocar.
+* 1-Escolha o número de casas do alfabeto que você deseja deslocar.
 
-*2-Escreva a mensagem que será codificada/decodificada.
+* 2-Escreva a mensagem que será codificada/decodificada.
 
-*3-Clique no botão "codificar"/"decodificar" para obter a mensagem.
+* 3-Clique no botão "codificar"/"decodificar" para obter a mensagem.
 
-*4-Caso precise, pressione o botão "limpar" para excluir a mensagem que foi 
+* 4-Caso precise, pressione o botão "limpar" para excluir a mensagem que foi 
 codificada/decodificada.
 
-## 4.Informções
+## 4.Considerações finais
 
-Em caso de dúvida, entre em contato:
+Em caso de dúvidas, entre em contato:
 carmemilya1@gmail.com
