@@ -1,83 +1,108 @@
- 
+
+
 body{
-
-  background-color: #121528;
-}
-
-h1{
-
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: white;
-
-}
-
-#root {
   
-  background-color: rgba(39,164,134,0.6);
+  
+  background-image: url(https://i.pinimg.com/originals/2e/19/83/2e19839315d72ce2611b68ba393b0e00.jpg);
+  
+}
+
+h1 {
+
   vertical-align: middle;
   line-height: 100px;
-  color:white;
+  color:rgb(166, 118, 126);
   text-align: center;
   border: 200px;
-  font-size: larger;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 50px;
-  border-radius: 20px 20px 20px
- 
+  font-size: 60px;
+  font-family: Georgia, serif;
+  border-radius: 20px 20px 20px;
+
 }
 
+.introduction{
+  
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px;
 
-#numDeslocamento {
+}
 
-  font-family: verdana;
-  font-size: 20px;
+.explanation {
+
+  background-color: rgb(115, 38, 52, 0.9);
+  vertical-align: middle;
+  text-align: inherit;
+  line-height:18px;
   color:white;
-
-}
-
-strong{
-
-  color: #5462a3;
-  font: italic;
-
-}
-
-
-
-aside {
-
-  color: white;
-  width: 20%;
-  padding-left: 20px;
-  margin-left: 20px;
-  float: right;
-  font-family:'Times New Roman', Times, serif;
-  background-color: #7b3687;
-  font-size: 110%;
-  border-radius: 20px 20px 20px
- 
-}
-
-#input {
-
-  border: 20px solid powderblue;
-          
-    
-}
-
-
-#criptar, #descriptar{
-
- color: black;
+  width: 300px;
+  border: 100px;
+  height: 140px;
+  padding: 50px; 
+  font-size: 10pt;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 20px 20px 20px;
+  box-shadow: 5px 10px;
+  box-sizing: content-box; 
+  margin-left: 0px;
+  margin-right: 20px; 
  
 }
 
 .note {
+
   font-size: 110%;
-  color: rgba(39,164,134,0.9);
+  color: rgb(151, 73, 74);
+
 }
 
-#print{ 
-  padding-left: 20px;
-  margin-left: 20px;
+#container {
+
+  display: flex;
+  justify-content: space-between;
+  margin-left: 200px;
+  margin-right: 200px;
+  padding: 50px;
+  color: white
+
 }
+
+textarea{
+
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 0px;
+  resize:none;
+  background-color: rgb(148, 78, 83, 0.9);
+  border-radius: 10px 10px 10px;
+  border-color: rgb(148, 78, 83, 0.9);
+
+}
+
+#buttonCrypt, #buttonDecrypted, #clearButtonEn, #clearButtonDec {
+  
+  font-family: 'Times New Roman', Times, serif;
+  background-color: rgb(115, 38, 52);
+  border-bottom: 10px solid redrgba;
+  border-color: rgb(115, 38, 52);
+  color: white;
+  box-shadow: 0 0 10px;
+  border-radius: 6px 6px 6px;
+
+}
+
+
+
+
+input{
+
+  background-color: rgb(148, 78, 83);
+  border-color: rgb(148, 78, 83);
+  color: white;
+  border-radius: 5px 5px 5px;
+
+}
+
+
+  

@@ -1,46 +1,75 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <title>Caesar Cipher</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="index.js" type="module"></script>  
-  
+ <head>
+   <meta charset="utf-8">
+   <title>Caesar Cipher</title>
+   <h1>Cifra Cientifica</h1>
+   <link rel="stylesheet" href="style.css" />
+   <script src="index.js" type="module"></script>  
+ </head>
 
-  </head>
-
-  <body>
-    <div> 
-    <h1>Codifique sua descoberta</h1>
-    </div>
-
-    <div id = "root">Nome usuario</div>
- 
- 
-
-    <p id="numDeslocamento">Insira o numero de deslocamento do seu código</p1>
-    <br><input id="offsetNumber" name="offsetNumber" value="" type="number"></br>
+ <body>
    
+    <div class= "introduction">
 
-    <p><textarea 
-    id="text" name="text" 
-    rows="5" cols="40">
-    </textarea></p>
+      <section class= "explanation">
 
-    <button onclick="codificar()" id="criptar">Codificar</button>
-    <button onclick="descodificar()" id="descriptar">Descodificar</button>
+        <label><strong class= "note">Quem pode usar?</strong></label>
+        <p>Nosso site foi desenvolvido para usuarios cientistas, que desejam utilizar 
+         um diário codificado para manter suas pesquisas em segredo.
+        </p>
 
-    <aside>
-      <p>
-        É um tipo de <strong class="note">cifra de substituição</strong> no qual cada letra do texto
+      </section>
+
+      <section class= "explanation">
+
+        <label><strong class= "note">O que é cifra de substituição?</strong></label>
+        <p>É um tipo de cifra de substituição no qual cada letra do texto
         é substituída por outra, que se apresenta no alfabeto abaixo dela um número fixo de vezes. 
         Por exemplo, com uma troca de três posições, A seria substituído por D, B se tornaria E,
         e assim por diante.
-      </p>
-    </aside>
-    
-    <p title="salve essa mensagem em seus arquivos" id="print"><button onclick="window.print()">Print essa página</button></p>
-    
+        </p>
+        
+      </section>
+
+      <section class= "explanation">
+
+        <label><strong class= "note">Como funciona?</strong></label>
+        <p>
+           1-Escolha o número de casas do alfabeto que você deseja deslocar.<br>
+           2-Escreva o texto que deseja codificar.<br>
+           3-Clique no botão "codificar" para obter sua mensagem criptada.<br>
+           <strong class= "note">Pronto!</strong> 
+        </p>
+
+      </section>
+
+    </div>
+
+ 
+    <div id = "container">
+
+       <section>
+
+          <input placeholder="Insira o numero de deslocamento" id="offsetCrypt" name="offsetCrypt" type="number"  >
+          <p><textarea  placeholder="Digite sua mensagem para ser encriptada" id="textCrypt" name="textCrypt" rows="5" cols="40"> </textarea></p>
+          <button id="buttonCrypt">Codificar</button>
+          <p><textarea id="msgCrypt" name="msgCrypt" rows="5" cols="40" disabled></textarea></p>
+          <input type="submit" id = "clearButtonEn" value="Limpar" onclick = "clearEnc()">
+
+       </section>
+      
+       <section>
+
+          <input placeholder="Insira o numero de deslocamento" id="offsetDecrypted" name="offsetDecrypted" type="number">
+          <p><textarea placeholder="Digite sua mensagem para ser decriptada" id="textDecrypted" name="textDecrypted" rows="5" cols="40"></textarea></p>
+          <button id="buttonDecrypted">Descodificar</button>
+          <p><textarea id="msgDecrypted" name="msgDecrypted" rows="5" cols="40"></textarea></p>
+          <input type="submit" id = "clearButtonDec" value="Limpar" onclick = "clearDec()">
+
+       </section>
+       
+    </div>
      
   </body>
 </html>
